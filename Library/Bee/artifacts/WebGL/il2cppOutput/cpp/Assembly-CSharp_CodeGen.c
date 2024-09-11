@@ -26,6 +26,8 @@ extern void NextLevel_Start_m021004621ABCBEEF128F323F2B249722975A5BE2 (void);
 extern void NextLevel_OnTriggerEnter_m8BB6BB60B82F7DB45E6E78E5F5DE80573C917ADB (void);
 extern void NextLevel__ctor_m6C999E9091E8CD76CDB223415FCDEB105F8AEDEE (void);
 extern void PlayerMovement_FixedUpdate_m05F06EBAEB85F1B860ED042B83AD54F61DC53EFE (void);
+extern void PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3 (void);
+extern void PlayerMovement_getPositionByTouch_m89DACED65A6989033FB0F1A9DB5F3C5D6FA33E2B (void);
 extern void PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA (void);
 extern void QuitGameScript_QuitGame_mD97DD575EE9284C983A2F26BD866848096B9BBB1 (void);
 extern void QuitGameScript__ctor_mF4F7C0345224ED3A2BF15734C6E2F48FFD3748FE (void);
@@ -35,7 +37,7 @@ extern void ScoreScript_Update_m1480843494E984F9EE886D0E4848F1C7B6521B25 (void);
 extern void ScoreScript__ctor_m4965D0732AEA0185BC6DFD75C0CF938CC17FE96F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+static Il2CppMethodPointer s_methodPointers[25] = 
 {
 	CameraMovement_Update_m42273F0005E91309F6A375EB990391D92F6727FE,
 	CameraMovement__ctor_m89EBDC0905F17D37C7604387BED054FDCCADAFD3,
@@ -51,6 +53,8 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	NextLevel_OnTriggerEnter_m8BB6BB60B82F7DB45E6E78E5F5DE80573C917ADB,
 	NextLevel__ctor_m6C999E9091E8CD76CDB223415FCDEB105F8AEDEE,
 	PlayerMovement_FixedUpdate_m05F06EBAEB85F1B860ED042B83AD54F61DC53EFE,
+	PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3,
+	PlayerMovement_getPositionByTouch_m89DACED65A6989033FB0F1A9DB5F3C5D6FA33E2B,
 	PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA,
 	QuitGameScript_QuitGame_mD97DD575EE9284C983A2F26BD866848096B9BBB1,
 	QuitGameScript__ctor_mF4F7C0345224ED3A2BF15734C6E2F48FFD3748FE,
@@ -61,7 +65,7 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[25] = 
 {
 	4443,
 	4443,
@@ -78,6 +82,8 @@ static const int32_t s_InvokerIndices[23] =
 	4443,
 	4443,
 	4443,
+	4434,
+	4443,
 	4443,
 	4443,
 	4443,
@@ -91,7 +97,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	25,
 	s_methodPointers,
 	0,
 	NULL,

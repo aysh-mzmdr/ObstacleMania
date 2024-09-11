@@ -46,6 +46,7 @@ UnityEngine.Camera::get_farClipPlane
 UnityEngine.Camera::get_nearClipPlane
 UnityEngine.Camera::ScreenPointToRay_Injected
 UnityEngine.Camera::ScreenToViewportPoint_Injected
+UnityEngine.Camera::ScreenToWorldPoint_Injected
 UnityEngine.Camera::SetupCurrent
 UnityEngine.Camera::WorldToScreenPoint_Injected
 UnityEngine.Camera::get_pixelRect_Injected
