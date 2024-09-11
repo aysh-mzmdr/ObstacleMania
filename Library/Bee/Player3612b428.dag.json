@@ -420,13 +420,7 @@
         412,
         413,
         414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420,
-        421
+        415
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -19886,116 +19880,34 @@
       "DebugActionIndex": 392
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles Build/WebGL/Build/WebGL.framework.js",
+      "DisplayName": "Copying WebGL.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "Build/WebGL/Build/WebGL.framework.js"
       ],
       "ToBuildDependencies": [
         392
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 393
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_51op.info",
-      "DisplayName": "Writing WebGL.framework.js.gz_51op.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 167973,
-      "PayloadLength": 456,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_51op.info"
-      ],
-      "DebugActionIndex": 394
-    },
-    {
-      "Annotation": "GzipMarker Build/WebGL/Build/WebGL.framework.js.gz",
-      "DisplayName": "GzipMarker WebGL.framework.js",
-      "Action": "\"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.framework.js.gz_51op.info\"",
+      "Annotation": "CopyFiles Build/WebGL/Build/WebGL.wasm",
+      "DisplayName": "Copying WebGL.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.framework.js.gz_51op.info",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Build/WebGL/Build/WebGL.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        393,
-        394
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 395
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "Build/WebGL/Build/WebGL.wasm"
       ],
       "ToBuildDependencies": [
         390
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 396
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_mz8n.info",
-      "DisplayName": "Writing WebGL.wasm.gz_mz8n.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 168520,
-      "PayloadLength": 440,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_mz8n.info"
-      ],
-      "DebugActionIndex": 397
-    },
-    {
-      "Annotation": "GzipMarker Build/WebGL/Build/WebGL.wasm.gz",
-      "DisplayName": "GzipMarker WebGL.wasm",
-      "Action": "\"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.wasm.gz_mz8n.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.wasm.gz_mz8n.info",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "Build/WebGL/Build/WebGL.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        396,
-        397
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -20010,7 +19922,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -20025,20 +19937,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 169048,
+      "PayloadOffset": 167962,
       "PayloadLength": 2273,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -20067,73 +19979,32 @@
       "ToBuildDependencies": [
         2,
         5,
-        401
+        397
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 398
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles Build/WebGL/Build/WebGL.data",
+      "DisplayName": "Copying WebGL.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "Build/WebGL/Build/WebGL.data"
       ],
       "ToBuildDependencies": [
-        402
+        398
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 403
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/WebGL.data.gz_kmbt.info",
-      "DisplayName": "Writing WebGL.data.gz_kmbt.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 171412,
-      "PayloadLength": 417,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/WebGL.data.gz_kmbt.info"
-      ],
-      "DebugActionIndex": 404
-    },
-    {
-      "Annotation": "GzipMarker Build/WebGL/Build/WebGL.data.gz",
-      "DisplayName": "GzipMarker WebGL.data",
-      "Action": "\"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Essentials\\Unity\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\WebGL.data.gz_kmbt.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/WebGL.data.gz_kmbt.info",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "Build/WebGL/Build/WebGL.data.gz"
-      ],
-      "ToBuildDependencies": [
-        403,
-        404
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "PreprocessJS Library/Bee/artifacts/WebGLWebGL.loader.js",
       "DisplayName": "PreprocessJS WebGLWebGL.loader",
-      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGLWebGL.loader.js'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
+      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Library/Bee/artifacts/WebGLWebGL.loader.js'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -20142,7 +20013,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "CopyFiles Build/WebGL/Build/WebGL.loader.js",
@@ -20155,14 +20026,14 @@
         "Build/WebGL/Build/WebGL.loader.js"
       ],
       "ToBuildDependencies": [
-        406
+        400
       ],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "PreprocessJS Build/WebGL/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Build/WebGL/index.html'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGL.loader.js'\"",
+      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Build/WebGL/index.html'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGL.loader.js'\"",
       "Inputs": [
         "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -20171,7 +20042,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/favicon.ico",
@@ -20183,7 +20054,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/fullscreen-button.png",
@@ -20195,7 +20066,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/MemoryProfiler.png",
@@ -20207,7 +20078,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/progress-bar-empty-dark.png",
@@ -20219,7 +20090,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/progress-bar-empty-light.png",
@@ -20231,7 +20102,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/progress-bar-full-dark.png",
@@ -20243,7 +20114,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/progress-bar-full-light.png",
@@ -20255,12 +20126,12 @@
       "Outputs": [
         "Build/WebGL/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "PreprocessJS Build/WebGL/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Build/WebGL/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data.gz'\" \"FRAMEWORK_FILENAME='WebGL.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGL.loader.js'\"",
+      "Action": "cd /d \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Programming/GitHub/ObstacleMania/Build/WebGL/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='ayshmzmdr'\" \"PRODUCT_NAME='ObstacleMania'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL.data'\" \"FRAMEWORK_FILENAME='WebGL.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='WebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.45f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='WebGL.loader.js'\"",
       "Inputs": [
         "D:/Essentials/Unity/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -20269,7 +20140,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 416
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/unity-logo-dark.png",
@@ -20281,7 +20152,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/unity-logo-light.png",
@@ -20293,7 +20164,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 418
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/webgl-logo.png",
@@ -20305,7 +20176,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "CopyFiles Build/WebGL/TemplateData/webmemd-icon.png",
@@ -20317,7 +20188,7 @@
       "Outputs": [
         "Build/WebGL/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 420
+      "DebugActionIndex": 414
     },
     {
       "Annotation": "Player",
@@ -20327,11 +20198,17 @@
       "ToBuildDependencies": [
         4,
         386,
+        393,
+        394,
         395,
-        398,
+        396,
         399,
-        400,
+        401,
+        402,
+        403,
+        404,
         405,
+        406,
         407,
         408,
         409,
@@ -20339,16 +20216,10 @@
         411,
         412,
         413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420
+        414
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 421
+      "DebugActionIndex": 415
     }
   ],
   "FileSignatures": [
@@ -20716,7 +20587,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 421
+          "Player": 415
         }
 ,  "DefaultNodes": [
     0
