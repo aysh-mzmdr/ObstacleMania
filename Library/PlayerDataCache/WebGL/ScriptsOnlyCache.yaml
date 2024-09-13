@@ -1338,4 +1338,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/TheEnd.unity
-  playerPath: D:/Programming/GitHub/ObstacleMania/Build/WebGL
+  playerPath: D:/Programming/GitHub/ObstacleMania/Build Files/WebGL
